@@ -1,0 +1,22 @@
+#a{
+    text-align: center;
+
+}
+#b{
+    text-align: right;
+    font-family:'Arial black';
+    font-size: 23px;
+
+}
+#c{
+border: 1px solid black;
+color: red;
+}
+#d{
+    background-color: rgb(100, 247, 20);
+
+}
+#f{
+    border: 3px dotted black;
+
+}

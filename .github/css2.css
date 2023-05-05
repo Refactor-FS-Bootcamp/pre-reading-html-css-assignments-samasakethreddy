@@ -1,0 +1,45 @@
+.container {
+    width : 60vw;
+    margin :auto;
+    height : 100vh;
+}
+.red {
+    background-color: rgb(255, 0, 0);
+    width: 60vw;
+    height:20vh;
+}
+.green {
+    height:1vh;
+    width: 60vw;
+    background-color: rgb(9, 226, 9);
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "b y sb";
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 0px;
+}
+.blue {
+    width: 15vw;
+    height: 60vh;
+    background-color: blue;
+    grid-area: b;
+}
+.yellow {
+    background-color: yellow;
+    height: 60vh;
+    width: 30vw;
+    grid-area: y;
+}
+.sky-blue {
+    width: 15vw;
+    background-color: skyblue;
+    height: 60vh;
+    grid-area: sb;
+}
+.orange {
+    width: 60vw;
+    height: 20vh;
+    background-color: orange;
+}
