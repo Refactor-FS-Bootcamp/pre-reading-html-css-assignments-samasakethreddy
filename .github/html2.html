@@ -19,6 +19,13 @@
         .right{
              text-align: right;
         }
+        #a{
+            border-top: 3px solid black;
+        }
+        .b{
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+        }
     </style>
 </head>
 <body >
@@ -77,22 +84,22 @@
     <table class="tb">
         <tr>
             <td></td>
-            <td style="width:45%"></td>
+            <td style="width:45%" ></td>
             <td></td>
         </tr>
         <tr>
-            <td rowspan="4" border="20px solid black"></td>
-            <td></td>
+            <td rowspan="4" ></td>
+            <td id="a" class="b"></td>
             <td rowspan="4"></td>
         </tr>
         <tr>
-            <td></td>
+            <td class="b"></td>
         </tr>
         <tr>
-            <td></td>
+            <td class="b"></td>
         </tr>
         <tr>
-            <td></td>
+            <td class="b" style="border-bottom: 3px solid black;"></td>
         </tr>
         <tr>
             <td></td>
